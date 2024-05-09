@@ -32,7 +32,7 @@ def Column_Summarizer(dataframe, column):
     return dataframe
 
 #Load data from csv to pd dataframe
-LolData = pd.read_csv('LolDataClean.csv')
+LolData = pd.read_csv('Start Here!\LolDataCleaned.csv')
 
 Lol_Data_With_Summaries = Column_Summarizer(LolData, 'OpenChanges')
 print(Lol_Data_With_Summaries)
